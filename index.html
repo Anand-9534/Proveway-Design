@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List with Radio Buttons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div class="container">
+            <h2> YAY! its BOGO </h2>
+                    <div class="option-group">
+                        <div class="radio-group" >
+                            <div class="radio">
+                                <div>
+                                <label><input type="radio" name="item" value="item1" onclick="updateTotal(10); toggleDetails('details1')"> <b>1 Unit</b></label> <span class="discount">10% Off</span>
+                                </div>
+                                    <div class="price">
+                                        <p>$10.00 USD </p>
+                                    </div>
+                                </div>
+                                <div class="price-line">
+                                    <div>
+                                        <p>Standard Price</p> 
+                                    </div>
+                                        <div>
+                                            <s>$24.00 USD</s>
+                                        </div>
+                                </div>
+                                <div class="details" id="details1">
+                                    <table>
+                                        <tr>
+                                            <th> </th>
+                                            <th>Size</th>
+                                            <th>Color</th>
+                                        </tr>
+
+                                        <tr>
+                                            <td> #1 </td>
+                                            <td>
+                                                <label>
+                                                    <select name="size1">
+                                                        <option value="small">Small</option>
+                                                        <option value="medium">Medium</option>
+                                                        <option value="large">Large</option>
+                                                    </select>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label>
+                                                <select name="color1">
+                                                        <option value="red">Red</option>
+                                                        <option value="blue">Blue</option>
+                                                        <option value="green">Green</option>
+                                                    </select>
+                                                </label>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td> #2 </td>
+                                            <td>
+                                                <label> 
+                                                    <select name="size1">
+                                                        <option value="small">Small</option>
+                                                        <option value="medium">Medium</option>
+                                                        <option value="large">Large</option>
+                                                    </select>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <select name="color1">
+                                                    <option value="red">Red</option>
+                                                    <option value="blue">Blue</option>
+                                                    <option value="green">Green</option>
+                                                </select>
+                                            </label>
+                                                </td>
+                                            </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="radio-group" >
+                                <div class="radio">
+                                        <span class="back-popular"> </span>
+                                        <span class="most-popular">MOST POPULAR</span>
+                                    <div>
+                                        <label><input type="radio" name="item" value="item2" onclick="updateTotal(18); toggleDetails('details2')"> <b>2 Unit</b></label> <span class="discount">20% Off</span>
+                                    </div>
+                                        <div class="price">
+                                            <p>$18.00 USD </p>
+                                        </div>
+                                </div>
+                                <div class="price-line">
+                                    <div>
+                                        <p>   </p> 
+                                    </div>
+                                        <div>
+                                            <s>$24.00 USD</s>
+                                        </div>
+                                </div>
+                                    <div class="details" id="details2">
+                                        <table>
+                                            <tr>
+                                                <th> </th>
+                                                <th>Size</th>
+                                                <th>Color</th>
+                                            </tr>
+    
+                                            <tr>
+                                                <td> #1 </td>
+                                                <td>
+                                                    <label>
+                                                        <select name="size1">
+                                                            <option value="small">Small</option>
+                                                            <option value="medium">Medium</option>
+                                                            <option value="large">Large</option>
+                                                        </select>
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <label>
+                                                    <select name="color1">
+                                                            <option value="red">Red</option>
+                                                            <option value="blue">Blue</option>
+                                                            <option value="green">Green</option>
+                                                        </select>
+                                                    </label>
+                                                </td>
+                                            </tr>
+    
+                                            <tr>
+                                                <td> #2 </td>
+                                                <td>
+                                                    <label> 
+                                                        <select name="size2">
+                                                            <option value="small">Small</option>
+                                                            <option value="medium">Medium</option>
+                                                            <option value="large">Large</option>
+                                                        </select>
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <select name="color2">
+                                                        <option value="red">Red</option>
+                                                        <option value="blue">Blue</option>
+                                                        <option value="green">Green</option>
+                                                    </select>
+                                                </label>
+                                                    </td>
+                                                </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="radio-group" >
+                                    <div class="radio">
+                                        <div calss="accord">
+                                        <label><input type="radio" name="item" value="item3" onclick="updateTotal(24); toggleDetails('details3')"> <b>3 Unit</b></label> <span class="discount">30% Off</span>
+                                        </div>
+                                            <div class="price">
+                                                <p>$24.00 USD </p>
+                                            </div>
+                                        </div>
+                                        <div class="price-line">
+                                            <div>
+                                                <p>   </p> 
+                                            </div>
+                                                <div>
+                                                    <s>$24.00 USD</s>
+                                                </div>
+                                        </div>
+                                        <div class="details" id="details3">
+                                            <table>
+                                                <tr>
+                                                    <th> </th>
+                                                    <th>Size</th>
+                                                    <th>Color</th>
+                                                </tr>
+        
+                                                <tr>
+                                                    <td> #1 </td>
+                                                    <td>
+                                                        <label>
+                                                            <select name="size3">
+                                                                <option value="small">Small</option>
+                                                                <option value="medium">Medium</option>
+                                                                <option value="large">Large</option>
+                                                            </select>
+                                                        </label>
+                                                    </td>
+                                                    <td>
+                                                        <label>
+                                                        <select name="color3">
+                                                                <option value="red">Red</option>
+                                                                <option value="blue">Blue</option>
+                                                                <option value="green">Green</option>
+                                                            </select>
+                                                        </label>
+                                                    </td>
+                                                </tr>
+        
+                                                <tr>
+                                                    <td> #2 </td>
+                                                    <td>
+                                                        <label> 
+                                                            <select name="size1">
+                                                                <option value="small">Small</option>
+                                                                <option value="medium">Medium</option>
+                                                                <option value="large">Large</option>
+                                                            </select>
+                                                        </label>
+                                                    </td>
+                                                    <td>
+                                                        <select name="color1">
+                                                            <option value="red">Red</option>
+                                                            <option value="blue">Blue</option>
+                                                            <option value="green">Green</option>
+                                                        </select>
+                                                    </label>
+                                                        </td>
+                                                    </tr>
+                                            </table>
+                                        </div>
+                                 </div>
+                            </div>
+                            <div class="total">
+                                    <p style="color:#FF6B82 ;"> Free Delivery</p>
+                                    <h3>Total: $<span id="total">0.00</span> USD</h3>
+                            </div>
+
+                            <button class="button">+ Add to Cart</button>
+                        </div>
+                        
+                    </div>
+            </div>
+            <script>
+                function updateTotal(price) {
+                    document.getElementById('total').innerText = price.toFixed(2);
+                }
+                
+                function toggleDetails(id) {
+                    document.querySelectorAll('.details').forEach(detail => detail.style.display = 'none');
+                    const selectedDetail = document.getElementById(id);
+                    if (selectedDetail) {
+                        selectedDetail.style.display = 'block';
+                    }
+                }
+            </script>
+    </body>
+</html>
